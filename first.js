@@ -8,7 +8,7 @@ function StopWatch(){
   const intervalRef = useRef(null); 
   
   function start(){ 
-    if(!isRunning){
+    if(!isRunning){ 
     setisRunning(true);   
     intervalRef.current = setInterval(()=>{
       setTime((time)=>time+1);

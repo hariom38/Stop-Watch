@@ -10,7 +10,7 @@ function StopWatch(){
   function start(){ 
     if(!isRunning){ 
     setisRunning(true);    
-    intervalRef.current = setInterval(()=>{
+    intervalRef.current = setInterval(()=>{ 
       setTime((time)=>time+1);
     },1000)
     }

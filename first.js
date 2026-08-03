@@ -9,7 +9,7 @@ function StopWatch(){
   
   function start(){ 
     if(!isRunning){ 
-    setisRunning(true);   
+    setisRunning(true);    
     intervalRef.current = setInterval(()=>{
       setTime((time)=>time+1);
     },1000)

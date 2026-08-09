@@ -6,7 +6,7 @@ function StopWatch(){
   const [time,setTime] = useState(0);
   const [isRunning, setisRunning] = useState(false)  
   const intervalRef = useRef(null); 
-  
+   
   function start(){ 
     if(!isRunning){ 
     setisRunning(true);    

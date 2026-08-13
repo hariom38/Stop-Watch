@@ -1,10 +1,10 @@
-import React, { useCallback, useMemo, useRef, useState} from "react";
+ import React, { useCallback, useMemo, useRef, useState} from "react";
 import ReactDOM from "react-dom/client"
 
 function StopWatch(){
    
   const [time,setTime] = useState(0);
-  const [isRunning, setisRunning] = useState(false)  
+  const [isRunning, setisRunning] = useState(false)   
   const intervalRef = useRef(null); 
    
   function start(){ 
